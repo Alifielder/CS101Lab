@@ -58,5 +58,5 @@ class Clock:
         while True:
             print(clockOption)
             clockOption.tick()
-            clockOption.__str__()
             time.sleep(1)
+            clockOption.__str__()
